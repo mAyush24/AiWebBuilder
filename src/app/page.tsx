@@ -1,6 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 
-const Page = () => {
+const Page = async() => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-zinc-200">
       <h1 className="text-rose-500">Welcome to My App</h1>
